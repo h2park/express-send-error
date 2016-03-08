@@ -1,0 +1,25 @@
+{
+  "name": "express-send-error",
+  "version": "1.0.0",
+  "description": "Express middleware that knows what an error is, and isn't afraid to use it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/express-send-error.git"
+  },
+  "author": "Octoblu, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/express-send-error/issues"
+  },
+  "homepage": "https://github.com/octoblu/express-send-error#readme",
+  "keywords": [
+    "express"
+  ],
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
