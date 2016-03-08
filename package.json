@@ -1,10 +1,10 @@
 {
   "name": "express-send-error",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express middleware that knows what an error is, and isn't afraid to use it",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no tests :-)\" && exit 0"
   },
   "repository": {
     "type": "git",
