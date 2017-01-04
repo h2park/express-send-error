@@ -1,6 +1,8 @@
 _ = require 'lodash'
 
-module.exports = ({logFn=console.error}={}) => (request, response, next) =>
+module.exports = (options={}) => (request, response, next) =>
+  { logFn } = options
+  logFn ?= _.noop
   response.sendError = (error) =>
     throw new Error('[express-send-error] sendError called without an error') unless error?
     try
